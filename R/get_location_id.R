@@ -6,7 +6,7 @@
 # "https://raw.githubusercontent.com/igolaizola/idealista-scraper/main/data/es.json"
 province_lookup <- data.frame(
   name = c(
-    "alava", "Albacete", "Alicante", "Almeria", "avila", "Badajoz", 
+    "Alava", "Albacete", "Alicante", "Almeria", "Avila", "Badajoz", 
     "Illes Balears", "Barcelona", "Burgos", "Caceres", "Cadiz", 
     "Castellon", "Ciudad Real", "Cordoba", "A Coruña", "Cuenca", 
     "Girona", "Granada", "Guadalajara", "Gipuzkoa", "Huelva", "Huesca", 
