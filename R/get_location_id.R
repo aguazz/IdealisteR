@@ -6,11 +6,11 @@
 # "https://raw.githubusercontent.com/igolaizola/idealista-scraper/main/data/es.json"
 province_lookup <- data.frame(
   name = c(
-    "Álava", "Albacete", "Alicante", "Almería", "Ávila", "Badajoz", 
-    "Illes Balears", "Barcelona", "Burgos", "Cáceres", "Cádiz", 
-    "Castellón", "Ciudad Real", "Córdoba", "A Coruña", "Cuenca", 
+    "alava", "Albacete", "Alicante", "Almeria", "avila", "Badajoz", 
+    "Illes Balears", "Barcelona", "Burgos", "Caceres", "Cadiz", 
+    "Castellon", "Ciudad Real", "Cordoba", "A Coruña", "Cuenca", 
     "Girona", "Granada", "Guadalajara", "Gipuzkoa", "Huelva", "Huesca", 
-    "Jaén", "León", "Lleida", "La Rioja", "Lugo", "Madrid", "Málaga", 
+    "Jaen", "Leon", "Lleida", "La Rioja", "Lugo", "Madrid", "Malaga", 
     "Murcia", "Navarra", "Ourense", "Asturias", "Palencia", "Las Palmas", 
     "Pontevedra", "Salamanca", "S. C. de Tenerife", "Cantabria", "Segovia", 
     "Sevilla", "Soria", "Tarragona", "Teruel", "Toledo", "Valencia", 
@@ -60,5 +60,6 @@ get_location_id <- function(province_name, country = "ES") {
 # #> "0-EU-ES-42"
 # 
 # get_location_id("palencia|leon")
-# #>     Palencia       León 
+# #>     Palencia       Leon 
+
 # #> "0-EU-ES-34" "0-EU-ES-24" 
